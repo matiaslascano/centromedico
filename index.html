@@ -335,6 +335,59 @@
         </div>
       </div>
     </section>
+    <section class="appointment section">
+      <div class="container mx-auto">
+        <h2
+          class="appointment__title h2 mb-5 lg:mb-[50px] text-center lg:text-left"
+        >
+          Solicita tu turno o llama al:
+          <span class="text-accent-tertiary">+5493514084026</span>
+        </h2>
+        <form class="appointment__form flex flex-col gap-y-5">
+          <div class="flex flex-col lg:flex-row gap-5">
+            <div class="select relative flex items-center">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select
+                class="appearance-none outline-none h-full w-full bg-transparent px-4"
+              >
+                <option value="1">Elija una especialidad</option>
+                <option value="2">Clinica general</option>
+                <option value="3">Pediatria</option>
+                <option value="4">Cardiologia</option>
+              </select>
+            </div>
+            <div class="select relative flex items-center">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select
+                class="appearance-none outline-none h-full w-full bg-transparent px-4"
+              >
+                <option value="1">Elija un profesional</option>
+                <option value="2">Doctor Jane Doe</option>
+                <option value="3">Doctor Jhon Doe</option>
+                <option value="4">Doctor Bill Smith</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row gap-5">
+            <input type="text" class="input" placeholder="Nombre" />
+            <input type="text" class="input" placeholder="Telefono" />
+          </div>
+          <div class="flex flex-col lg:flex-row gap-5">
+            <label>Fecha</label>
+            <input class="input" type="date" placeholder="Fecha" />
+            <label>Hora</label>
+            <input class="input" type="time" />
+          </div>
+          <button class="btn btn-lg btn-accent self-start" type="submit">
+            Solicitar turno
+          </button>
+        </form>
+      </div>
+    </section>
 
     <div class="h-[4000px]"></div>
 
